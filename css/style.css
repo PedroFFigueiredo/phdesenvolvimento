@@ -150,7 +150,10 @@ td, th {
 
 /* CSS da Página Inicial */
 .banner {
-    width: 100%;
+    width: 45%;
+    border: 1px solid black;
+    border-radius: 0 0 0 0.5rem;
+    box-shadow: -5px 8px 2px #000;
 }
 
 .title-main {
@@ -161,9 +164,20 @@ td, th {
 }
 
 .main {
-    padding: 3em 0;
+    display: flex;
+    padding-top: 4rem;
     background: #FEFEFE;
-    width: 940px;
+    width: 70%;
+    height: 15rem;
+    margin: 0 auto;
+}
+
+.container-secondary {
+    display: flex;
+    padding-top: 6rem;
+    background: #FEFEFE;
+    width: 70%;
+    height: 15rem;
     margin: 0 auto;
 }
 
@@ -178,6 +192,58 @@ td, th {
 .main em {
     font-style: italic;
 }
+
+.container-price {
+    width: 45%;
+    padding: 1.2rem 0 0 5rem;
+}
+
+.title-price, .title-disponibilidad, .title-courses {
+    color: #000000;
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-align: center;
+    /* text-shadow: 0px 0px 2px #888888; */
+}
+
+.button-buy {
+    display: block;
+    padding: 1em;
+    background-color: #c00d0d;
+    background-image: url(../images/carrinho.png);
+    background-repeat: no-repeat;
+    background-size: 2.3rem;
+    background-position: 1.7rem 0.6rem;
+    margin: 1.5em 0 0 0;
+    color: #FFF;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button-buy:hover {
+    background-color: #8B0000;
+    transition: all 0.2s ease-out;
+}
+
+.container-disponibilidad {
+    width: 60%;
+    padding: 4rem 5rem 0 0rem;
+}
+
+.container-courses {
+    width: 60%;
+    padding: 4rem 5rem 0 0rem;
+}
+
+p.disponibilidad, p.courses {
+    color: #000000;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
 
 .utensilions {
     width: 120px;
