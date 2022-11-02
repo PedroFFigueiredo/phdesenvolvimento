@@ -1,0 +1,105 @@
+footer {
+    text-align: center;
+    background: url("../images/bg.jpg");
+    padding: 1rem 0;
+}
+
+.container-information {
+    display: flex;
+    justify-content: center;
+}
+
+.row-institutional, .row-contact-us, .row-contact {
+    width: 35%;
+}
+
+.row-institutional b, .row-contact-us b, .row-contact b, .row-networks b {
+    color: #888888;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.institutional, .contact-us, .contact {
+    display: block;
+}
+
+.institutional li, .contact-us li, .contact li {
+    margin: 1rem;
+}
+
+.institutional li a, .contact li a, .contact li p {
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.contact-us li p {
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.contact-us li span {
+    font-size: 0.85rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.contact-us li span a {
+    font-size: 0.85rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: #888888;
+}
+
+.contact-us li span a:hover {
+    text-decoration: underline;
+    color: #5c5959;
+    transition: all 0.1s ease-out;
+}
+
+.institutional li a:hover, .contact li a:hover {
+    text-decoration: underline;
+    color: #888888;
+    transition: all 0.1s ease-out;
+}
+
+.row-networks {
+    display: block;
+    margin-top: 1rem;
+    width: 41%;
+}
+
+.social-networks {
+    display: flex;
+    padding: 1rem 0 2rem 5rem;
+}
+
+.social-networks li {
+    padding: 0 0.5rem 0 0.5rem;
+}
+
+.social-networks .whatsapp, .social-networks .linkedin, .social-networks .instagram, .social-networks .facebook, .social-networks .youtube, .social-networks .twiter  {
+    width: 3rem;
+}
+
+.social-networks .whatsapp:hover, .social-networks .linkedin:hover, .social-networks .instagram:hover, .social-networks .facebook:hover, .social-networks .youtube:hover, .social-networks .twiter:hover {
+    cursor: pointer;
+    transform: scale(1.15);
+    transition: all 0.4s ease-out;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 0.9rem;
+    margin: 1rem 0 0 0;
+}
+
+.conditions {
+    color: #FFFFFF;
+    font-size: 0.9rem;
+    margin: 0.3rem 0 0 0;
+}
