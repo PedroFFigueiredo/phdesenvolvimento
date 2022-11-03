@@ -1,0 +1,24 @@
+header {
+    background: url(../images/bg.jpg);
+    padding: 3rem 0;
+}
+
+.box {display: flex;position: absolute;left: 70%;top: 5%;}
+
+.box ul {
+    display: flex;
+}
+
+.box ul li a {
+    padding: 0 1rem 0 1rem;
+    text-decoration: none;
+    color: #888888;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.box ul li a:hover {
+    color: #FFF;
+    text-decoration: underline;
+}

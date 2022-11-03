@@ -69,13 +69,13 @@ footer {
 
 .row-networks {
     display: block;
-    margin-top: 1rem;
-    width: 41%;
+    margin-top: -1.5rem;
+    width: 33.5%;
 }
 
 .social-networks {
     display: flex;
-    padding: 1rem 0 1rem 5rem;
+    padding: 1rem 0 1rem 2rem;
 }
 
 .social-networks li {
@@ -95,7 +95,7 @@ footer {
 .copyright {
     color: #FFFFFF;
     font-size: 0.9rem;
-    margin: 1rem 0 0 0;
+    margin: -1rem 0 0 0;
 }
 
 .conditions {

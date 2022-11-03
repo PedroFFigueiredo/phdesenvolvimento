@@ -3,17 +3,6 @@ body {
     font-size: 15px;
 }
 
-header {
-    background: #bbbbbb;
-    padding: 0;
-}
-
-.box {
-    position: relative;
-    width: 95%;
-    margin: 0 auto;
-}
-
 .logo {
     margin: 10px 0;
 }
@@ -198,7 +187,7 @@ td, th {
     padding: 1.2rem 0 0 5rem;
 }
 
-.title-price, .title-disponibilidad, .title-courses {
+.title-price, .title-disponibilidad, .title-courses, .devices__title {
     color: #000000;
     font-size: 1.7rem;
     font-weight: bold;
@@ -235,13 +224,25 @@ td, th {
 
 .container-courses {
     width: 60%;
-    padding: 4rem 5rem 0 0rem;
+    padding: 5rem 0 0 5rem;
 }
 
-p.disponibilidad, p.courses {
+p.disponibilidad, p.courses, p.name-device {
     color: #000000;
     font-size: 1.3rem;
     text-align: center;
+}
+
+.devices {
+    text-align: center;
+    padding-top: 6rem;
+}
+
+.devices__list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 1.5rem 0 3rem 0;
 }
 
 
