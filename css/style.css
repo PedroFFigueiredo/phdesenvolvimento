@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 15px;
 }
 
@@ -154,7 +154,7 @@ td, th {
 
 .main {
     display: flex;
-    padding-top: 4rem;
+    padding-top: 10rem;
     background: #FEFEFE;
     width: 70%;
     height: 15rem;
@@ -163,7 +163,7 @@ td, th {
 
 .container-secondary {
     display: flex;
-    padding-top: 6rem;
+    padding-top: 17rem;
     background: #FEFEFE;
     width: 70%;
     height: 15rem;
@@ -189,10 +189,10 @@ td, th {
 
 .title-price, .title-disponibilidad, .title-courses, .devices__title {
     color: #000000;
-    font-size: 1.7rem;
-    font-weight: bold;
+    font-size: 1.9rem;
+    font-weight: 900;
     text-align: center;
-    /* text-shadow: 0px 0px 2px #888888; */
+    text-shadow: 0px 0px 2px #888888;
 }
 
 .button-buy {
@@ -229,13 +229,14 @@ td, th {
 
 p.disponibilidad, p.courses, p.name-device {
     color: #000000;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
+    font-weight: 600;
     text-align: center;
 }
 
 .devices {
     text-align: center;
-    padding-top: 6rem;
+    padding-top: 17rem;
 }
 
 .devices__list {
