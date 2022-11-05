@@ -10,7 +10,21 @@ body {
     margin-left: 12rem;
 }
 
-.title {
+.banner-whoWeAre {
+    display: flex;
+    float: left;
+    width: 40%;
+    margin-right: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.about-us .title {
+    display: flex;
+    position: relative;
+    padding: 0.9rem 0 0.9rem 1.5rem;
+    top: 1.5rem;
+    left: -6rem;
+    background-color: #ffffff;
     color: #888888;
     font-size: 1.9rem;
     font-weight: 600;
@@ -26,4 +40,37 @@ body {
 
 .about-us p strong {
     font-weight: bold;
+}
+
+.us-purpose {
+    width: 70%;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    margin-left: 12rem;
+}
+
+.us-purpose .title {
+    color: #888888;
+    font-size: 1.9rem;
+    font-weight: 600;
+}
+
+.us-purpose p {
+    text-align: inherit;
+    color: #000000;
+    font-size: 1.3rem;
+    line-height: 1.75rem;
+    margin: 1.8rem 0 0 0;
+}
+
+.us-purpose p strong {
+    font-weight: bold;
+}
+
+.banner-purpose {
+    display: flex;
+    float: right;
+    width: 35%;
+    height: 30rem;
+    margin-left: 2rem;
 }
