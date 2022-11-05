@@ -74,3 +74,34 @@ body {
     height: 30rem;
     margin-left: 2rem;
 }
+
+.knowledge {
+    width: 100%;
+    height: 16rem;
+    background: #888888;
+}
+
+.us {
+    display: flex;
+    justify-content: center;
+    padding-top: 2.5rem;
+}
+
+.banner-client, .banner-course, .banner-partners {
+    width: 35%;
+    filter: drop-shadow(0px 0px 3px #40e0d0);
+}
+
+.us .title {
+    color: #ffffff;
+    font-size: 1.9rem;
+    font-weight: 600;
+    text-align: center;
+    filter: drop-shadow(0px 0px 3px #40e0d0);
+}
+
+.client, .course, .partners {
+    display: block;
+    width: 30%;
+    text-align: center;
+}
