@@ -141,13 +141,8 @@ td, th {
     box-shadow: -5px 8px 2px #000;
 }
 
-.container .main {
-    display: flex;
+.container.main {
     padding-top: 10rem;
-    background: #FEFEFE;
-    width: 70%;
-    height: 15rem;
-    margin: 0 auto;
 }
 
 .container {
@@ -216,16 +211,20 @@ td, th {
     padding: 5rem 0 0 5rem;
 }
 
-p.disponibilidad, p.courses, p.name-device {
+p.disponibilidad, p.courses, p.name-device, p.library {
     color: #000000;
     font-size: 1.4rem;
     line-height: 1.75rem;
     text-align: center;
 }
 
+p.library strong {
+    font-weight: bold;
+}
+
 .devices {
     text-align: center;
-    padding-top: 17rem;
+    padding-top: 34rem;
 }
 
 .devices__list {
@@ -332,15 +331,15 @@ section.container.library {
 .colun-one-front.active {
     display: flex;
     position: absolute;
-    width: 40%;
-    margin-left: 4rem;
+    width: 50%;
+    margin-left: 6rem;
 }
 
 .colun-two-front.active {
     display: flex;
     position: absolute;
-    width: 40%;
-    margin-left: 4rem;
+    width: 50%;
+    margin-left: 6rem;
     margin-top: 10rem;
 }
 
@@ -351,15 +350,15 @@ section.container.library {
 .colun-one-back.active {
     display: flex;
     position: absolute;
-    width: 40%;
+    width: 50%;
     margin-left: -10rem;
 }
 
 .colun-two-back.active {
     display: flex;
     position: absolute;
-    width: 40%;
-    margin-left: 3rem;
+    width: 50%;
+    margin-left: 4.5rem;
     margin-top: 10rem;
 }
 
@@ -370,8 +369,8 @@ section.container.library {
 .colun-one-data.active {
     display: flex;
     position: absolute;
-    width: 40%;
-    margin-left: -24rem;
+    width: 50%;
+    margin-left: -26rem;
 }
 
 .colun-one-mobile {
@@ -381,8 +380,8 @@ section.container.library {
 .colun-one-mobile.active {
     display: flex;
     position: absolute;
-    width: 40%;
-    margin-left: -39rem;
+    width: 50%;
+    margin-left: -43rem;
 }
 
 .all-courses {
@@ -394,20 +393,28 @@ section.container.library {
 }
 
 .btn {
-    width: 8rem;
-    height: 2rem;
-    background: #888888;
+    width: 11rem;
+    height: 3rem;
+    background: #2b1d86;
     color: #FFFFFF;
     font-family: sans-serif;
-    font-size: 1rem;
+    text-align: center;
+    font-size: 1.3rem;
     font-weight: bold;
-    border: 1px solid red;
-    margin: 0 5rem 0 1rem;
+    border: 1px solid #2b1d86;
+    border-radius: 25px;
+    margin: 0 3rem 0 1.8rem;
+    cursor: pointer;
 }
 
 .btn:hover {
-    background: blue;
-    cursor: pointer;
+    color: #fff;
+    background-image: -webkit-linear-gradient(135deg, #140e3f 50%, transparent 50%);
+    background-image: linear-gradient(135deg, #140e3f 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 0.4s ease-in-out;
+    transition: background 0.4s ease-in-out;
 }
 
 .logo-front-end, .logo-back-end, .logo-data-science, .logo-mobile {
@@ -415,6 +422,7 @@ section.container.library {
     width: 15%;
     margin-right: 8rem;
     padding-top: 4rem;
+    filter: drop-shadow(0px 0px 3px #2b1d86);
 }
 
 .logo-mobile.react {
