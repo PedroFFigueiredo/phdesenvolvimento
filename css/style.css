@@ -325,16 +325,69 @@ section.container.library {
     display: block;
 }
 
-.school-front-end {
+.colun-one-front, .colun-two-front {
     display: none;
 }
 
-.school-front-end.active { 
-    display: block;
+.colun-one-front.active {
+    display: flex;
+    position: absolute;
+    width: 40%;
+    margin-left: 4rem;
+}
+
+.colun-two-front.active {
+    display: flex;
+    position: absolute;
+    width: 40%;
+    margin-left: 4rem;
+    margin-top: 10rem;
+}
+
+.colun-one-back, .colun-two-back {
+    display: none;
+}
+
+.colun-one-back.active {
+    display: flex;
+    position: absolute;
+    width: 40%;
+    margin-left: -10rem;
+}
+
+.colun-two-back.active {
+    display: flex;
+    position: absolute;
+    width: 40%;
+    margin-left: 3rem;
+    margin-top: 10rem;
+}
+
+.colun-one-data {
+    display: none;
+}
+
+.colun-one-data.active {
+    display: flex;
+    position: absolute;
+    width: 40%;
+    margin-left: -24rem;
+}
+
+.colun-one-mobile {
+    display: none;
+}
+
+.colun-one-mobile.active {
+    display: flex;
+    position: absolute;
+    width: 40%;
+    margin-left: -39rem;
 }
 
 .all-courses {
     display: flex;
+    width: 100%;
     margin-top: 2rem;
     justify-content: center;
     text-align: center;
@@ -349,10 +402,21 @@ section.container.library {
     font-size: 1rem;
     font-weight: bold;
     border: 1px solid red;
-    margin: 0 1rem 0 1rem;
+    margin: 0 5rem 0 1rem;
 }
 
 .btn:hover {
     background: blue;
     cursor: pointer;
+}
+
+.logo-front-end, .logo-back-end, .logo-data-science, .logo-mobile {
+    display: block;
+    width: 15%;
+    margin-right: 8rem;
+    padding-top: 4rem;
+}
+
+.logo-mobile.react {
+    width: 22%;
 }
