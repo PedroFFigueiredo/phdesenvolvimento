@@ -141,14 +141,7 @@ td, th {
     box-shadow: -5px 8px 2px #000;
 }
 
-.title-main {
-    text-align: center;
-    font-size: 2em;
-    margin: 0 0 1em;
-    clear: left;
-}
-
-.main {
+.container .main {
     display: flex;
     padding-top: 10rem;
     background: #FEFEFE;
@@ -157,7 +150,7 @@ td, th {
     margin: 0 auto;
 }
 
-.container-secondary {
+.container {
     display: flex;
     padding-top: 17rem;
     background: #FEFEFE;
@@ -166,15 +159,15 @@ td, th {
     margin: 0 auto;
 }
 
-.main p {
+.container .main p {
     margin: 0 0 1em;
 }
 
-.main strong {
+.container .main strong {
     font-weight: bold;
 }
 
-.main em {
+.container .main em {
     font-style: italic;
 }
 
@@ -183,12 +176,12 @@ td, th {
     padding: 1.2rem 0 0 5rem;
 }
 
-.title-price, .title-disponibilidad, .title-courses, .devices__title {
+.title-price, .title-disponibilidad, .title-courses, .title-library, .devices__title {
     color: #000000;
     font-size: 1.9rem;
+    line-height: 2.3rem;
     font-weight: 900;
     text-align: center;
-    text-shadow: 0px 0px 2px #888888;
 }
 
 .button-buy {
@@ -226,7 +219,7 @@ td, th {
 p.disponibilidad, p.courses, p.name-device {
     color: #000000;
     font-size: 1.4rem;
-    font-weight: 600;
+    line-height: 1.75rem;
     text-align: center;
 }
 
@@ -325,3 +318,41 @@ p.disponibilidad, p.courses, p.name-device {
         width: 100%;
     }
 } 
+
+/* Container Cursos */
+
+section.container.library {
+    display: block;
+}
+
+.school-front-end {
+    display: none;
+}
+
+.school-front-end.active { 
+    display: block;
+}
+
+.all-courses {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn {
+    width: 8rem;
+    height: 2rem;
+    background: #888888;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 1px solid red;
+    margin: 0 1rem 0 1rem;
+}
+
+.btn:hover {
+    background: blue;
+    cursor: pointer;
+}
