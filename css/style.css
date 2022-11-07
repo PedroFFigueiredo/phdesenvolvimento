@@ -4,7 +4,12 @@ body {
 }
 
 .logo {
-    margin: 10px 0;
+    width: 23%;
+    height: auto;
+    display: flex;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
 }
 
 nav {
@@ -134,15 +139,23 @@ td, th {
 }
 
 /* CSS da Página Inicial */
+
+section.container.main {
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,4.7)), url(../images/principal.png) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .banner {
-    width: 45%;
+    height: 50%;
     border: 1px solid black;
     border-radius: 0 0 0 0.5rem;
     box-shadow: -5px 8px 2px #000;
-}
-
-.container.main {
-    padding-top: 10rem;
 }
 
 .container {
@@ -428,3 +441,9 @@ section.container.library {
 .logo-mobile.react {
     width: 22%;
 }
+
+
+/* .teste-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+} */
