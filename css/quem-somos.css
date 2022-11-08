@@ -3,6 +3,15 @@ body {
     font-size: 15px;
 }
 
+.logo {
+    width: 23%;
+    height: auto;
+    display: flex;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
+
 .about-us {
     width: 70%;
     margin-top: 4rem;

@@ -76,21 +76,26 @@ footer {
 
 .social-networks {
     display: flex;
-    padding: 1rem 0 1rem 2rem;
+    position: absolute;
+    padding: 3rem 0 1rem 5rem;
 }
 
 .social-networks li {
     padding: 0 0.5rem 0 0.5rem;
 }
 
-.social-networks .whatsapp, .social-networks .linkedin, .social-networks .instagram, .social-networks .facebook, .social-networks .youtube, .social-networks .twiter  {
+.social-networks .whatsapp, .social-networks .linkedin, .social-networks .instagram, .social-networks .facebook, .social-networks .github {
     width: 3rem;
 }
 
-.social-networks .whatsapp:hover, .social-networks .linkedin:hover, .social-networks .instagram:hover, .social-networks .facebook:hover, .social-networks .youtube:hover, .social-networks .twiter:hover {
+.social-networks .whatsapp:hover, .social-networks .linkedin:hover, .social-networks .instagram:hover, .social-networks .facebook:hover, .social-networks .github:hover {
     cursor: pointer;
     transform: scale(1.15);
     transition: all 0.4s ease-out;
+}
+
+.direitos-reservados {
+    margin-top: 4rem;
 }
 
 .copyright {

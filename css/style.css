@@ -154,13 +154,13 @@ section.container.main {
 .banner {
     height: 50%;
     border: 1px solid black;
-    border-radius: 0 0 0 0.5rem;
-    box-shadow: -5px 8px 2px #000;
+    box-shadow: -11px 8px 2px #000;
 }
 
 .container {
     display: flex;
     padding-top: 17rem;
+    justify-content: center;
     background: #FEFEFE;
     width: 70%;
     height: 15rem;
@@ -180,8 +180,8 @@ section.container.main {
 }
 
 .container-price {
-    width: 45%;
-    padding: 1.2rem 0 0 5rem;
+    width: 35%;
+    padding: 0rem 0 0 5rem;
 }
 
 .title-price, .title-disponibilidad, .title-courses, .title-library, .devices__title {
@@ -190,6 +190,7 @@ section.container.main {
     line-height: 2.3rem;
     font-weight: 900;
     text-align: center;
+    padding-bottom: 0.5rem;
 }
 
 .button-buy {
@@ -216,18 +217,18 @@ section.container.main {
 
 .container-disponibilidad {
     width: 60%;
-    padding: 4rem 5rem 0 0rem;
+    padding: 3.2rem 5rem 0 0rem;
 }
 
 .container-courses {
     width: 60%;
-    padding: 5rem 0 0 5rem;
+    padding: 3.3rem 0 0 5rem;
 }
 
 p.disponibilidad, p.courses, p.name-device, p.library {
     color: #000000;
     font-size: 1.4rem;
-    line-height: 1.75rem;
+    line-height: 1.8rem;
     text-align: center;
 }
 
